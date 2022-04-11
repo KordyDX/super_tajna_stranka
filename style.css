@@ -1,0 +1,14 @@
+html {
+    text-align: center;
+    max-width: 100%;
+}
+
+body {
+    line-height: 1.5;
+    color: #323233;
+    background-color: #fff;
+}
+
+.header {
+    height: 100px;
+}
