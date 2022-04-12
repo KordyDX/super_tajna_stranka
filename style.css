@@ -42,7 +42,6 @@ body {
     color: #000000;
 }
 
-hr {
-    color: aqua;
-    width: 100%;
+.product-content p {
+    text-align: left;
 }
