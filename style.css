@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     text-align: center;
     max-width: 100%;
 }
 
 body {
+    background-color: #d84c4b;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
     line-height: 1.5;
-    color: #323233;
-    background-color: #fff;
+    color: #ffffff;
 }
 
 .header {
-    height: 100px;
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.intro-content {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.alt-text {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.3em;
 }
