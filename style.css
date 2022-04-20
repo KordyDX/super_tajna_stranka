@@ -7,6 +7,16 @@
     body {
         max-width: 30vw;
     }
+    .images img {
+        object-fit: cover;
+        width: 70px;
+        height: auto;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -26,6 +36,16 @@
     }
     .page1 {
         margin-top: 43px;
+    }
+    .images img {
+        object-fit: cover;
+        width: 70px;
+        height: auto;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
     }
 }
 
@@ -62,6 +82,10 @@ body {
     color: #000000;
 }
 
+.product-content p {
+    text-align: justify;
+}
+
 .contact-content {
     display: inline-block;
     color: #000000;
@@ -74,4 +98,15 @@ body {
     border: #d84c4b;
     border-style: solid;
     border-width: 7px;
+}
+
+.omega {
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #d84c4b;
+}
+
+.outer {
+    display: inline-block;
 }
